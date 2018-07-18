@@ -9,7 +9,7 @@ class Shoe
     BRANDS << brand
   end
   
-  
+  learn spec/02_shoe_spec.rb
 
   def cobble
     self.condition = "new"
