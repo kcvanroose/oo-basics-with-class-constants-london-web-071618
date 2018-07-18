@@ -6,10 +6,10 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
+    BRANDS.push|(brand) unless BRANDS.include?(brand)
   end
   
-  learn spec/02_shoe_spec.rb
+ 
 
   def cobble
     self.condition = "new"
